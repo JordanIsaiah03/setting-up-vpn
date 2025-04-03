@@ -1,6 +1,8 @@
 # Vitual Private Network (VPN)
 <p align="center">
-<img src="https://i.imgur.com/MntON5Q.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="732" alt="Screenshot 2025-04-03 at 12 59 05 PM" src="https://github.com/user-attachments/assets/dbf1f869-a11c-4223-93cb-b0d3423b4301" />
+
+
 </p>
 
 <h1>VPN - Prerequisites and Installation</h1>
@@ -21,9 +23,9 @@ This tutorial outlines the prerequisites and installation of using a VPN.<br />
 
 - STEP 1 - Locate Local IP
 - STEP 2 - Setting Up VM Using Azure
-- STEP 3 - Locating IP Through VM (France)
+- STEP 3 - Locating IP Through VM (East US 2)
 - STEP 4 - Connecting to VPN Through VM
-- STEP 5 - Locating IP Through VPN (Japan)
+- STEP 5 - Locating IP Through VPN ()
 
 <h2>Installation Steps</h2>
 
@@ -40,19 +42,22 @@ Next we will set up a virtual machine on Azure.
 </p>
 <br />
 
-STEP 2 - Go to www.portal.azure.com and find Virtual Machines. (Create a free account with $200 if you need to). See Example 2A looking at the Virtual Machine set up page. 
+STEP 2 - Go to www.portal.azure.com and find Virtual Machines. See Example 2A looking at the Virtual Machine set up page. 
 
 EXAMPLE 2A
 <p>
-<img src="https://i.imgur.com/K9oaS2z.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1448" alt="Screenshot 2025-04-03 at 1 07 59 PM" src="https://github.com/user-attachments/assets/74340ffa-d59b-4749-91ec-72d962b812d7" />
+
 </p>
 <p>
 
-Creating the Virtual Machine on Example 2B the VM as “VM-FranceCentral” and select that for the REGION as well. Ensure the other items are selected as shown in EXAMPLE 2B & 2C.
+Creating the Virtual Machine on Example 2B the VM as “East US 2” and select that for the REGION as well. Ensure the other items are selected as shown in EXAMPLE 2B & 2C.
 
 EXAMPLE 2B
 <p>
-<img src="https://i.imgur.com/u3vclL3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="782" alt="Screenshot 2025-04-03 at 1 28 57 PM" src="https://github.com/user-attachments/assets/0c4d015f-251a-468b-9f2e-49fc84ef1779" />
+<img width="1149" alt="Screenshot 2025-04-03 at 1 33 40 PM" src="https://github.com/user-attachments/assets/f639c0ab-bc6a-422a-98df-d95d71d915bd" />
+
 </p>
 <p>
 
@@ -63,7 +68,8 @@ For the Username and Password you can create your custom information, just recor
 
 EXAMPLE 2C
 <p>
-<img src="https://i.imgur.com/rXIj3Zb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="792" alt="Screenshot 2025-04-03 at 1 41 26 PM" src="https://github.com/user-attachments/assets/d74fe576-b49d-4b9e-bc39-dba96b56bb8f" />
+
 </p>
 <p>
 
@@ -74,7 +80,8 @@ Select the “Networking” tab towards the top of the page and view EXAMPLE 2D 
 
 EXAMPLE 2D
 <p>
-<img src="https://i.imgur.com/OgYgNLK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="951" alt="Screenshot 2025-04-03 at 1 44 13 PM" src="https://github.com/user-attachments/assets/63ea67d8-97b9-40eb-9412-d9ffb5cc4b6c" />
+
 </p>
 <p>
 
@@ -88,48 +95,27 @@ NEXT: At the Virtual Machine we find that the IP to the Virtual Machine is “20
 EXAMPLE 2E
 
 <p>
-<img src="https://i.imgur.com/ZlH9zI5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1115" alt="Screenshot 2025-04-03 at 2 18 22 PM" src="https://github.com/user-attachments/assets/3e4747d4-30db-4a51-82c5-85f2c4fcf76a" />
+
 </p>
 <p>
 
 
-STEP 3 – Log Into the VM and Find IP Address
-<p>
-Now that we have set up the Virtual Machine we will connecting to it using the application “Remote Desktop Connection” (EXAMPLE 3A) and input the IP address for the VM that we located in EXAMPLE 2E and then input the set credentials we set when creating the VM (see EXAMPLE 3B). Once logged in, we will open the web browser and again look up www.whatismyipaddress.com (EXAMPLE 3C).
+STEP 3 – Log into VM & find IP Address
 
-  
-</p>
-<br />
-EXAMPLE 3A
-<p>
-<img src="https://i.imgur.com/YPBkMau.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-
+When we look up the IP address for this VM through www.whatismyipaddress.com we see that this VM is showing the location for Boydton, Virginia (EXAMPLE 3C).
   
 </p>
 <br />
 
-EXAMPLE 3B
 <p>
-<img src="https://i.imgur.com/oPJr2w2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-
-When we look up the IP address for this VM through www.whatismyipaddress.com we see that this VM is showing the location for France (EXAMPLE 3C).
-  
-</p>
-<br />
-
-EXAMPLE 3C
-<p>
-<img src="https://i.imgur.com/nWlX2UM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1195" alt="Screenshot 2025-04-03 at 2 54 47 PM" src="https://github.com/user-attachments/assets/4cc4fcce-0e4f-4d7f-9b48-83744f4b90d9" />
 </p>
 <p>
 
 STEP 4 – CONNECTING TO VPN (Free Version)
 
-Using the local computer go to protonvpn.com and create a free account (if you use the VM then French will display on your browser, so use local computer desktop). Once you are logged into your account, copy the URL from the Proton VPN website (EXAMPLE 4A) and then paste the URL to the VM web browser. 
+Using the local computer go to protonvpn.com and create a free account. Once you are logged into your account, copy the URL from the Proton VPN website (EXAMPLE 4A) and then paste the URL to the VM web browser. 
 
   
 </p>
