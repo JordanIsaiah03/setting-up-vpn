@@ -23,9 +23,9 @@ This tutorial outlines the prerequisites and installation of using a VPN.<br />
 
 - STEP 1 - Locate Local IP
 - STEP 2 - Setting Up VM Using Azure
-- STEP 3 - Locating IP Through VM (East US 2)
+- STEP 3 - Locating IP Through VM (Canada Central)
 - STEP 4 - Connecting to VPN Through VM
-- STEP 5 - Locating IP Through VPN ()
+- STEP 5 - Locating IP Through VPN (Japan)
 
 <h2>Installation Steps</h2>
 
@@ -51,17 +51,17 @@ EXAMPLE 2A
 </p>
 <p>
 
-Creating the Virtual Machine on Example 2B the VM as “East US 2” and select that for the REGION as well. Ensure the other items are selected as shown in EXAMPLE 2B & 2C.
+Creating the Virtual Machine on Example 2B the VM as “Canada Central” and select that for the REGION as well. Ensure the other items are selected as shown in EXAMPLE 2B & 2C.
 
 EXAMPLE 2B
 <p>
-<img width="782" alt="Screenshot 2025-04-03 at 1 28 57 PM" src="https://github.com/user-attachments/assets/0c4d015f-251a-468b-9f2e-49fc84ef1779" />
+<img width="848" alt="Screenshot 2025-04-03 at 10 40 45 PM" src="https://github.com/user-attachments/assets/7d579dd0-c284-456f-b213-f73fccf1bb35" />
 <img width="1149" alt="Screenshot 2025-04-03 at 1 33 40 PM" src="https://github.com/user-attachments/assets/f639c0ab-bc6a-422a-98df-d95d71d915bd" />
 
 </p>
 <p>
 
-For the Username and Password you can create your custom information, just record it personally.
+For the Username and Password you can create your custom information, make sure you put it in notes just in case you forget it.
   
 </p>
 <br />
@@ -80,7 +80,7 @@ Select the “Networking” tab towards the top of the page and view EXAMPLE 2D 
 
 EXAMPLE 2D
 <p>
-<img width="951" alt="Screenshot 2025-04-03 at 1 44 13 PM" src="https://github.com/user-attachments/assets/63ea67d8-97b9-40eb-9412-d9ffb5cc4b6c" />
+<img width="1062" alt="Screenshot 2025-04-03 at 10 45 52 PM" src="https://github.com/user-attachments/assets/42bfc6c2-18cb-44f9-bca6-56453a4b4541" />
 
 </p>
 <p>
@@ -90,12 +90,12 @@ Then select “Review and Create”, once it passes validation select “Create�
 </p>
 <br />
 
-NEXT: At the Virtual Machine we find that the IP to the Virtual Machine is “20.216.176.18”. See EXAMPLE 2E
+NEXT: At the Virtual Machine we find that the IP to the Virtual Machine is “20.63.77.73”. See EXAMPLE 2E
 
 EXAMPLE 2E
 
 <p>
-<img width="1115" alt="Screenshot 2025-04-03 at 2 18 22 PM" src="https://github.com/user-attachments/assets/3e4747d4-30db-4a51-82c5-85f2c4fcf76a" />
+<img width="1112" alt="Screenshot 2025-04-03 at 10 50 52 PM" src="https://github.com/user-attachments/assets/3677d923-7a51-42ac-956c-16b43b73db98" />
 
 </p>
 <p>
@@ -103,13 +103,13 @@ EXAMPLE 2E
 
 STEP 3 – Log into VM & find IP Address
 
-When we look up the IP address for this VM through www.whatismyipaddress.com we see that this VM is showing the location for Boydton, Virginia (EXAMPLE 3C).
+When we look up the IP address for this VM through www.whatismyipaddress.com we see that this VM is showing the location for Toronto, Canada (EXAMPLE 3C).
   
 </p>
 <br />
 
 <p>
-<img width="1195" alt="Screenshot 2025-04-03 at 2 54 47 PM" src="https://github.com/user-attachments/assets/4cc4fcce-0e4f-4d7f-9b48-83744f4b90d9" />
+<img width="1192" alt="Screenshot 2025-04-03 at 11 18 54 PM" src="https://github.com/user-attachments/assets/ceb2ada8-9094-452b-b8ec-637fff63deb9" />
 </p>
 <p>
 
@@ -135,7 +135,8 @@ Once you have logged into your Proton VPN account on the VM, you will select “
 
 EXAMPLE 4B
 <p>
-<img src="https://i.imgur.com/oqPHozb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1470" alt="Screenshot 2025-04-03 at 11 47 35 PM" src="https://github.com/user-attachments/assets/73d70800-0d25-455a-85fe-c34e62426dd4" />
+
 </p>
 <p>
 
@@ -146,7 +147,9 @@ On the left hand side of the VPN you can select a country where you want your VP
 
 EXAMPLE 4C
 <p>
-<img src="https://i.imgur.com/6Rdgg6B.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1470" alt="Screenshot 2025-04-03 at 11 48 09 PM" src="https://github.com/user-attachments/assets/a2b84925-d927-4a98-a703-8685a2c4a0b9" />
+
+
 </p>
 <p>
 
@@ -157,15 +160,14 @@ Next we will look at the IP again using the VM browser now that we have connecte
 
 EXAMPLE 4D
 <p>
-<img src="https://i.imgur.com/lQsISWb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1191" alt="Screenshot 2025-04-03 at 11 48 50 PM" src="https://github.com/user-attachments/assets/fc6dc398-bb72-4751-9d63-5d77eae34f85" />
 </p>
 <p>
 
 Looking at this exercise we see that we have utilized 3 different IP addresses just from your local computer to connect to the internet.
 Home IP (USA): 137.103.51.136
-Virtual Machin IP (France): 20.216.176.18
-Virtual Machin IP VPN (Japan) 212.102.51.251
-
+Virtual Machin IP (Canada): 20.63.77.73
+Virtual Machin IP VPN (Japan) 37.19.205.206
   
 </p>
 <br />
